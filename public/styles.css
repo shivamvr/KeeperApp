@@ -1,11 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@400;500&display=swap');
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 html {
-  /* font-family: "Montserrat", sans-serif; */
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 body {
   background: #eee;
