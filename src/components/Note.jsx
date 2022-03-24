@@ -5,7 +5,7 @@ function Note({ title, content, updateNotes, id }) {
     updateNotes(id);
   }
   return (
-    <div className="note">
+    <div contenteditable="true" className="note">
       <h1>{title}</h1>
       <p>{content}</p>
       <button onClick={deleteNote}>

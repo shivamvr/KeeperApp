@@ -48,7 +48,7 @@ function CreateArea({ onAdd }) {
               onChange={handleChange}
               value={note.content}
               placeholder="Take a note..."
-              rows="3"
+              rows="5"
             />
             <button style={{ fontSize: "150%" }} onClick={onSubmit}>
               +
